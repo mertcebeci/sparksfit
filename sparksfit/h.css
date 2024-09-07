@@ -1,0 +1,90 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #221a1a;
+    background-color: #eae4e4;
+}
+
+/* Başlık ve Hero Bölümü */
+header {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(129, 111, 111);
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: cent;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Özellikler Bölümü */
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Footer Bölümü */
+footer {
+    background-color: #8cb8e7;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

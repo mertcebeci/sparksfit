@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="s.css">
+    <link rel="icon" href="sp.png" type="SparkFits">
+    
+    <title>SparkFits</title>
+    <br>
+    <br>
+    <br>
+  
+</head>
+<body>
+    <header>
+        <h1>SparkFits Diyet Programı</h1>
+    </header>
+ <form id="programForm">
+            <label for="name">İsim:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Yaş:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="weight">Kilo (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+
+            <label for="height">Boy (cm):</label>
+            <input type="number" id="height" name="height" required>
+
+            <label for="gender">Cinsiyet:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Seçin</option>
+                <option value="male">Erkek</option>
+                <option value="female">Kadın</option>
+            </select>
+
+            <label for="goal">Hedef:</label>
+            <select id="goal" name="goal" required>
+                <option value="">Seçin</option>
+                <option value="fit">Fit Olmak</option>
+                <option value="zayıf">Zayıflamak</option>
+                <option value="kas">Kas Yapmak</option>
+            </select>
+                <link rel="stylesheet" href="r.html">
+            <button type="button" onclick="generateProgram()">Program Oluştur</button>
+            <div id="error-message" style="color: red; margin-top: 20px;"></div>        </form>
+        
+    </div>
+    </form>
+    
+    
+    
+
+    <script src="s.js"></script>
+</body>
+</html>
